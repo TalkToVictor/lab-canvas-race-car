@@ -1,7 +1,9 @@
 window.onload = () => {
-  document.getElementById('start-button').onclick = () => {
+  document.getElementById('start-button' || 'end-button').onclick = () => {
     startGame();
   };
 
-  function startGame() {}
+  function startGame() { }
 };
+
+
